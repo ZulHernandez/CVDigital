@@ -1,0 +1,96 @@
+.navbar-transparent{
+    background-color: transparent;
+    height: 70px;
+    -webkit-transition: 1s;
+}
+
+.hero{
+    background-image: url(../imgs/hero.png);
+    position: inherit;
+    background-attachment: inherit;
+    background-size: cover;
+    height: 100vh;
+}
+
+#canva1{
+    z-index: 1;
+    position: absolute;
+}
+
+.bigTitle-div{
+    width: 100%;
+    padding-top: 5vw;
+}
+
+.img-Portada{
+    width: 15vw;
+}
+
+.img-redes{
+    width:4vw;
+    padding:0.5vw;
+}
+
+.contacto{
+    margin-top: 4vw;
+    z-index: 1;
+    position: absolute;
+}
+
+.music{
+    margin-left: 3.5vw;
+    margin-top: 10vw;
+    position: absolute;
+    z-index: 2;
+    width:8vw;
+    opacity: 0.3;
+    -webkit-transition: 0.25s;
+}
+
+.music:hover{
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 965px){
+
+    .img-Portada{
+        width: 30vw;
+    }
+
+    .bigTitle-div{
+        width: 100%;
+        padding-top: 12vw;
+    }
+
+    .hero{
+        height: 90vh;
+    }
+
+    .music{
+        margin-left: 3.5vw;
+        margin-top: 17vw;
+        width:23vw;
+    }
+}
+
+@media only screen and (max-width: 765px){
+
+    .img-Portada{
+        width: 30vw;
+    }
+
+    .bigTitle-div{
+        width: 100%;
+        padding-top: 19vw;
+    }
+
+    .hero{
+        height: 80vh;
+    }
+
+    .img-redes{
+        width:6vw;
+        padding:0.5vw;
+    }
+
+}

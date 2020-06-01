@@ -1,0 +1,23 @@
+.escudo-prep{
+    width: 10vw;;
+}
+
+.zoom{
+    -webkit-transition: 0.25s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.shine{
+    -webkit-transition: 0.25s;
+}
+
+.shine:hover{
+    filter: brightness(110%);
+}
+
+.posicion{
+    height: 1px;
+}

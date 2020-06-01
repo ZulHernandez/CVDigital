@@ -1,0 +1,307 @@
+/*SCROLL BAR*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:transparent;
+}
+
+::-webkit-scrollbar-track{
+    background-color:rgb(41, 43, 44);
+    /*color: #999999*/
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(61,63,64);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+
+
+/* AVANT-GARDE */
+@font-face{
+    font-family: avant-garde-light;
+    src: url(../fonts/avant-garde/itc-avant-garde-gothic-std-extra-light-5895708744eb6.otf);
+}
+@font-face{
+    font-family: avant-garde-regular;
+    src: url(../fonts/avant-garde/itc-avant-garde-gothic-std-book-58957161d80eb.otf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-transition: 0.25s;
+}
+
+.Tlight{
+    font-family: avant-garde-light, sans-serif;
+}
+
+.Tnormal{
+    font-family: avant-garde-regular, sans-serif;
+}
+
+.big-Text{
+    font-size: 1.8vw;
+}
+
+.bigTitle{
+    font-size: 2.7vw;
+}
+
+.subTitle{
+    font-size: 1.1vw;
+}
+
+.little-text{
+    font-size: 0.8vw;
+}
+
+.body-Text{
+    font-size: 1.5vw;
+}
+
+/*rest*/
+.hide{
+    display: none;
+}
+
+.noHide{
+    display: block;
+}
+
+.super{
+    z-index: 2;
+    position: absolute;
+}
+
+.whiteBar{
+    border-color: white;
+    width: 42.5vw;
+    border-width: thick;
+    border-radius: 5px
+}
+
+.blueBar{
+    border-color: #292b2c;
+    width: 80%;
+    border-width: 3px;
+    border-radius: 5px
+}
+
+.espacio{
+    height: 3.5vw;
+}
+
+.espacioPequeño{
+    height: 1.75vw;
+}
+
+.input-correo{
+    border-color: rgba(0,44,57,0.5);
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: 80%;
+}
+
+.mensaje{
+    height: 10vw;
+    resize: none;
+    border-color: rgba(0,44,57,0.5);
+    border-radius: 5px;
+}
+
+.input-correo:focus{
+    border-color: rgb(41, 43, 44);
+    background-color: rgb(41, 43, 44);
+    color: white;
+}
+
+.button-sub{
+    border-color: rgba(0,44,57,0.5);
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: 80%;
+    background-color: transparent;
+    color: rgb(41, 43, 44);
+}
+
+.button-sub:hover{
+    border-color: rgb(41, 43, 44);
+    background-color: rgb(41, 43, 44);
+    color: white;
+}
+
+.mapouter, #gmap_canvas{
+    width:35vw;
+    height: 35vw;
+}
+
+.logo{
+    width: 40px;
+}
+
+.div-blue{
+    background-color: rgba(41, 43, 44,0.1);
+}
+
+.desp-blue{
+    text-align: right;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 2.5vw;
+    width: 2.5vw;
+    outline: rgb(41, 43, 44);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(41, 43, 44);
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 1.25vw;
+    color:rgb(41, 43, 44);
+}
+
+.carousel-control-prev-icon:after
+{
+    content: '<';
+    font-size: 1.25vw;
+    color:rgb(41, 43, 44);
+}
+
+.carousel-indicators {
+    margin: 0px;
+    height: 0px;
+
+}
+
+.carousel-indicators ol {
+    width: 100%;
+}
+
+
+.carousel-indicators li{
+    background: rgb(41, 43, 44);
+    height: 0px !important;
+    border-radius: 0px !important;
+    width: 25%;
+}
+
+@media only screen and (max-width: 965px){
+
+    .bigTitle{
+        font-size: 4vw;
+    }
+
+    .whiteBar{
+        width: 60vw;
+        border-width: medium;
+        border-radius: 5px
+    }
+
+    .subTitle{
+        font-size: 1.5vw;
+    }
+
+    .big-Text{
+        font-size: 2.3vw;
+    }
+
+    .mapouter, #gmap_canvas{
+        padding-top: 2vw;
+        width:40vw;
+        height: 40vw;
+    }
+
+    .little-text{
+        font-size: 1.2vw;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .carousel-control-next-icon:after
+    {
+        content: '>';
+        font-size: 2vw;
+        color:rgb(41, 43, 44);
+    }
+
+    .carousel-control-prev-icon:after
+    {
+        content: '<';
+        font-size: 2vw;
+        color:rgb(41, 43, 44);
+    }
+}
+
+@media only screen and (max-width: 765px){
+
+    .bigTitle{
+        font-size: 5vw;
+    }
+
+    .whiteBar{
+        width: 70vw;
+    }
+
+    .subTitle{
+        font-size: 1.8vw;
+    }
+
+    .big-Text{
+        font-size: 2.5vw;
+    }
+
+    .mapouter, #gmap_canvas{
+        width:65vw;
+        height: 40vw;
+        padding-bottom: 5vw;
+    }
+
+    .little-text{
+        font-size: 1.2vw;
+    }
+
+    .body-Text{
+        font-size: 2.3vw;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .carousel-control-next-icon:after
+    {
+        content: '>';
+        font-size: 2vw;
+        color:rgb(41, 43, 44);
+    }
+
+    .carousel-control-prev-icon:after
+    {
+        content: '<';
+        font-size: 2vw;
+        color:rgb(41, 43, 44);
+    }
+
+    .espacio{
+        height: 7vw;
+    }
+}

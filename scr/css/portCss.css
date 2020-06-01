@@ -1,0 +1,16 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-transition: 0.25s;
+}
+
+.div-video{
+    height: 100vh;
+
+}
+.escudo-prep{
+    width: 7vw;;
+}
+.l-text{
+    text-align: left;
+}
